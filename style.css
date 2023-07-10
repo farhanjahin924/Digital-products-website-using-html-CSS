@@ -3,12 +3,13 @@
     padding: 0px;
 }
 .menu-container{
-    background-color: rgb(32, 32, 32);
+    background-color: #424141;
     padding: 20px;
     list-style: none;
     color: white;
     display: flex;
     justify-content: space-around;
+    /* gap: 300px; */
     align-items: center;
 
 }
@@ -17,6 +18,7 @@
 }
 .menu{
     display: flex;
+    
 
 }
 .menu li{
@@ -29,4 +31,44 @@
 .menu li:hover{
     /* color: blue; */
     font-size: 22px;
+}
+/* section 1 */
+.div-pg1{
+    background-image: url(./images/background.png),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    height: 100vh;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    padding: 0px 60px;
+    
+}
+.p1-title{
+    color: white;
+    font-size:54px ;
+    margin-bottom: 40px;
+
+}
+.p1-des{
+    color: white;
+
+}
+
+.p1-btn{
+    background-color: red;
+    border: none;
+    padding: 10px;
+    margin-top: 30px;
+    color: white;
+    font-size:15px;
+}
+.banner{
+    width: 400px;
+}
+.about-title{
+    color: black;
+    align-items: center;
+    text-align: center;
 }
